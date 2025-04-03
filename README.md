@@ -10,7 +10,30 @@ As principais perguntas que ele deseja obter respostas são:
 5.	Qual o lucro mensal da empresa, considerando um gasto fixo de R$ 10.000,00 por mês?
 6.	Qual a forma de pagamento mais utilizada pelos clientes?
 7.	Com base nas informações coletadas, quais estratégias podem ser adotadas para aumentar o faturamento do salão?
+<center><strong>MODELO</strong></center><br><br>
 
-MODELO
+<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/modelo.jpg'/><br><br>
 
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/modelo.jpg'/>
+<strong>RELACIONAMENTOS DA TABELAS</strong><br><br>
+
+<p> CLIENTE  --> COMANDA_CLIENTE
+ID_CLIENTE da tabela “CLIENTE” com ID_CLIENTE da tabela “COMANDA_CLIENTE”
+Incluir TODOS os registros de 'CLIENTES' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.</p>
+	
+<p> PRESTADOR  --> COMANDACLIENTE <br>
+ID_PRESTADOR da tabela “PRESTADOR” com ID_PRESTADOR da tabela “COMANDA_CLIENTE”
+Incluir TODOS os registros de 'PRESTADOR' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.</p>
+
+<p>SERVICOS  --> COMANDACLIENTE<br>
+ID_SERVICO da tabela “SERVICOS” com ID_SERVICO da tabela “COMANDA_CLIENTE”
+Incluir TODOS os registros de 'SERVICOS' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.</p>
+
+<p>COMANDA --> COMANDACLIENTE<br>
+ID_COMANDA da tabela “COMANDA” com ID_COMANDA da tabela “COMANDA_CLIENTE”
+Incluir TODOS os registros de 'COMANDA' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.</p>
+
+<p>PAGAMENTOS --> COMANDA<br>
+ID_COMANDA da tabela “PAGAMENTOS” com ID_COMANDA da tabela “COMANDA”
+Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.</p>
+
+
