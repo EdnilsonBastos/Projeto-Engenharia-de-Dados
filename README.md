@@ -12,3 +12,5 @@ As principais perguntas que ele deseja obter respostas são:
 7.	Com base nas informações coletadas, quais estratégias podem ser adotadas para aumentar o faturamento do salão?
 
 MODELO
+
+<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/modelo.jpg'/>
