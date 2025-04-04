@@ -16,24 +16,24 @@ As principais perguntas que ele deseja obter respostas são:
 
 <strong>RELACIONAMENTOS DA TABELAS</strong><br><br>
 
-<p> CLIENTE  --> COMANDA_CLIENTE
+CLIENTE  --> COMANDA_CLIENTE<br>
 ID_CLIENTE da tabela “CLIENTE” com ID_CLIENTE da tabela “COMANDA_CLIENTE”
-Incluir TODOS os registros de 'CLIENTES' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.</p>
+Incluir TODOS os registros de 'CLIENTES' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.<br>
 	
-<p> PRESTADOR  --> COMANDACLIENTE <br>
+PRESTADOR  --> COMANDACLIENTE<br>
 ID_PRESTADOR da tabela “PRESTADOR” com ID_PRESTADOR da tabela “COMANDA_CLIENTE”
-Incluir TODOS os registros de 'PRESTADOR' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.</p>
+Incluir TODOS os registros de 'PRESTADOR' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.
 
-<p>SERVICOS  --> COMANDACLIENTE<br>
+SERVICOS  --> COMANDACLIENTE<br>
 ID_SERVICO da tabela “SERVICOS” com ID_SERVICO da tabela “COMANDA_CLIENTE”
-Incluir TODOS os registros de 'SERVICOS' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.</p>
+Incluir TODOS os registros de 'SERVICOS' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.
 
-<p>COMANDA --> COMANDACLIENTE<br>
+COMANDA --> COMANDACLIENTE<br>
 ID_COMANDA da tabela “COMANDA” com ID_COMANDA da tabela “COMANDA_CLIENTE”
-Incluir TODOS os registros de 'COMANDA' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.</p>
+Incluir TODOS os registros de 'COMANDA' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.
 
-<p>PAGAMENTOS --> COMANDA<br>
+PAGAMENTOS --> COMANDA<br>
 ID_COMANDA da tabela “PAGAMENTOS” com ID_COMANDA da tabela “COMANDA”
-Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.</p>
+Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.
 
 
