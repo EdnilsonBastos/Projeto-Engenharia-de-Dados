@@ -47,6 +47,6 @@ CATALAGO DE DADOS DA CAMADA BRONZE<br>
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze.JPG'/><br>
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze1.JPG'/><br>
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze2.JPG'/><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze3.JPG'/><br>
+
 
 
