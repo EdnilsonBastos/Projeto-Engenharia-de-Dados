@@ -9,7 +9,14 @@ As principais perguntas que ele deseja obter respostas são:
 4.	Qual foi o mês com maior receita de cada ano?
 5.	Qual o lucro mensal da empresa, considerando um gasto fixo de R$ 10.000,00 por mês?
 6.	Qual a forma de pagamento mais utilizada pelos clientes?
-7.	Com base nas informações coletadas, quais estratégias podem ser adotadas para aumentar o faturamento do salão?
+7.	Com base nas informações coletadas, quais estratégias podem ser adotadas para aumentar o faturamento do salão?<br><br>
+
+<center><strong>Explicação do arquivos Notebook:</strong></center><br>
+Importar_arquivos.ipyn - > Importar os arquivos (.csv) para os dataframes.<br>
+Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos dataframes carregados.<br>
+Prata.ipynb - > Trata os dataframes retirando colunas em branco, troca o tipo de coluna e altera os dados de uma coluna. Gera o database Prata com os dataframes tratados.<br>
+Ouro.ipynb - > Responde as perguntas atráves do comando SQL. Cria a tabela flat no database Ouro.<br><br>
+
 <center><strong>MODELO</strong></center><br><br>
 
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/modelo.jpg'/><br><br>
@@ -35,5 +42,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'COMANDACLIENT
 PAGAMENTOS --> COMANDA<br>
 ID_COMANDA da tabela “PAGAMENTOS” com ID_COMANDA da tabela “COMANDA”
 Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.
+
+CATALAGO DE DADOS DA CAMADA BRONZE<br>
 
 
