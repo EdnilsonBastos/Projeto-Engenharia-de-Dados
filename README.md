@@ -44,6 +44,6 @@ ID_COMANDA da tabela “PAGAMENTOS” com ID_COMANDA da tabela “COMANDA”
 Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.
 
 CATALAGO DE DADOS DA CAMADA BRONZE<br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catálogobronze.jpg'/><br><br>
+<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze.JPG'/><br><br>
 
 
