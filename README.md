@@ -4,12 +4,13 @@ Meu amigo possui  um salão de beleza que utiliza um sistema desktop para regist
 As principais perguntas que ele deseja obter respostas são:
 
 1.	Qual o faturamento anual da empresa?
-2.	Quais prestadores receberam os maiores valores durante o ano?
-3.	Quais são os serviços mais vendidos?
+2.	Quais três prestadores receberam os maiores valores durante o ano?
+3.	Quais são os serviços mais vendidos por ano?
 4.	Qual foi o mês com maior receita de cada ano?
 5.	Qual o lucro mensal da empresa, considerando um gasto fixo de R$ 10.000,00 por mês?
 6.	Qual a forma de pagamento mais utilizada pelos clientes?
-7.	Com base nas informações coletadas, quais estratégias podem ser adotadas para aumentar o faturamento do salão?<br><br>
+7.	Qual o três clientes que mais gastaram dinheiro durante o ano?
+8.	Com base nas informações coletadas, quais estratégias podem ser adotadas para aumentar o faturamento do salão?<br><br>
 
 <center><strong>Explicação do arquivos Notebook:</strong></center><br>
 Importar_arquivos.ipyn - > Importar os arquivos (.csv) para os dataframes.<br>
