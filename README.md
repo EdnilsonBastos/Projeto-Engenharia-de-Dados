@@ -46,7 +46,12 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
 <strong>CATALAGO DE DADOS DA CAMADA BRONZE</strong><br><br>
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze.JPG'/><br>
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze1.JPG'/><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze2.JPG'/><br>
+<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze2.JPG'/><br><br>
+
+<strong>CATALAGO DA CAMADA PRATA</strong><br> 
+*(Coloquei somente as tabelas que teve mudança na sua estrutura em referência a camada “Bronze”)<br><br>
+
+
 
 
 
