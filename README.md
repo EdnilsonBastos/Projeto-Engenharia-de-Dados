@@ -16,7 +16,7 @@ As principais perguntas que ele deseja obter respostas são:
 Importar_arquivos.ipyn - > Importar os arquivos (.csv) para os dataframes.<br>
 Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos dataframes carregados.<br>
 Prata.ipynb - > Trata os dataframes retirando colunas em branco, troca o tipo de coluna e altera os dados de uma coluna. Gera o database Prata com os dataframes tratados.<br>
-Ouro.ipynb - > Responde as perguntas atráves do comando SQL. Cria a tabela flat no database Ouro.<br><br>
+Ouro.ipynb - > Cria as tabelas no database Ouro. Responde as perguntas atráves do comando SQL.<br><br>
 
 <center><strong>MODELO</strong></center><br><br>
 
