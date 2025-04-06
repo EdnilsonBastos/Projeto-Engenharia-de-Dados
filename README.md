@@ -4,8 +4,8 @@ Meu amigo possui  um salão de beleza que utiliza um sistema desktop para regist
 As principais perguntas que ele deseja obter respostas são:
 
 1.	Qual o faturamento anual da empresa?
-2.	Quais os três prestadores receberam os maiores valores durante os anos de 2024 e 2025?
-3.	Quais são os dez serviços mais vendidos por ano?
+2.	Quais os três Prestadores receberam os maiores valores durante os anos de 2024 e 2025?
+3.	Quais são os dez Serviços mais vendidos por ano?
 4.	Qual foi o mês com maior receita de cada ano?
 5.	Qual o lucro mensal da empresa, considerando um gasto fixo de R$ 7.000,00 por mês mais as comissões pagas aos Prestadores?
 6.	Qual a forma de pagamento mais utilizada pelos clientes?
