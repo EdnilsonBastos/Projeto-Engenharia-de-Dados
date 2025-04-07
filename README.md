@@ -56,6 +56,13 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoprata2.JPG'/><br><br>
 
 
+<strong>CATALAGO DA CAMADA OURO</strong><br> 
+<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoouro.JPG'/><br>
+<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoouro1.JPG'/><br>
+<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoouro2.JPG'/><br><br>
+
+
+
 
 
 
