@@ -17,7 +17,7 @@ Importar_arquivos.ipyn - > Importar os arquivos (.csv) para os dataframes.<br>
 Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos dataframes carregados.<br>
 QualidadeDados.ipyn - > Desmonstra quais tabelas tivemos problemas na qualidade dos dados.<br>
 Prata.ipynb - > Trata os dataframes retirando colunas em branco, troca o tipo de coluna e altera os dados de uma coluna. Gera o database Prata com os dataframes tratados.<br>
-Ouro.ipynb - > Cria as tabelas no database Ouro. Responde as perguntas atráves do comando SQL.<br><br>
+Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves do comando SQL.<br><br>
 
 <center><strong>MODELO</strong></center><br><br>
 
