@@ -25,7 +25,7 @@ Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves
 
 <strong>RELACIONAMENTOS DA TABELAS</strong><br><br>
 
-CLIENTE  --> COMANDA_CLIENTE<br>
+CLIENTE  --> COMANDACLIENTE<br>
 ID_CLIENTE da tabela “CLIENTE” com ID_CLIENTE da tabela “COMANDA_CLIENTE”
 Incluir TODOS os registros de 'CLIENTES' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.<br>
 	
