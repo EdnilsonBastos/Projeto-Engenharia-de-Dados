@@ -25,20 +25,20 @@ Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves
 
 <strong>RELACIONAMENTOS DA TABELAS</strong><br><br>
 
-CLIENTE  --> COMANDACLIENTE<br>
+CLIENTES  --> COMANDACLIENTE<br>
 ID_CLIENTE da tabela “CLIENTE” com ID_CLIENTE da tabela “COMANDA_CLIENTE”
 Incluir TODOS os registros de 'CLIENTES' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.<br>
 	
 PRESTADOR  --> COMANDACLIENTE<br>
-ID_PRESTADOR da tabela “PRESTADOR” com ID_PRESTADOR da tabela “COMANDA_CLIENTE”
+ID_PRESTADOR da tabela “PRESTADOR” com ID_PRESTADOR da tabela “COMANDACLIENTE”
 Incluir TODOS os registros de 'PRESTADOR' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.
 
 SERVICOS  --> COMANDACLIENTE<br>
-ID_SERVICO da tabela “SERVICOS” com ID_SERVICO da tabela “COMANDA_CLIENTE”
+ID_SERVICO da tabela “SERVICOS” com ID_SERVICO da tabela “COMANDACLIENTE”
 Incluir TODOS os registros de 'SERVICOS' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.
 
 COMANDA --> COMANDACLIENTE<br>
-ID_COMANDA da tabela “COMANDA” com ID_COMANDA da tabela “COMANDA_CLIENTE”
+ID_COMANDA da tabela “COMANDA” com ID_COMANDA da tabela “COMANDACLIENTE”
 Incluir TODOS os registros de 'COMANDA' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.
 
 PAGAMENTOS --> COMANDA<br>
