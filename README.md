@@ -98,6 +98,87 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td align="center">S</td>
   </tr>	
 </table><br><br>
+
+<table border="1">
+  <tr>
+    <th colspan="6">TABELA PRESTADOR</th>
+  </tr>
+  <tr>
+    <th colspan="6" align="left">ORIGEM: TABELA CLIENTE EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
+  </tr>
+<tr>
+    <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (clientes.csv)</th>
+  </tr>
+  <tr>
+    <td><strong>NOME DO CAMPO</strong></td>
+    <td><strong>TIPO DO DADO</strong></td>
+    <td><strong>TAMANHO</strong></td>
+    <td><strong>DESCRIÇÃO</strong></td>
+    <td><strong>CHAVE PRIMÁRIA</strong></td>
+    <td><strong>ACEITA NULO</strong></td>
+  </tr>
+    <td>ID_PRESTADOR</td>
+    <td>INT</td>
+    <td align="center">7</td>
+    <td>IDENTIFICADOR ÚNICO (IDENTITY)</td>
+    <td align="center">S</td>
+    <td align="center">N</td>
+  </tr>
+  <tr>
+    <td>APELIDO</td>
+    <td>Varchar</td>
+    <td align="center">50</td>
+    <td>INFORMA O APELIDO DO PROFISSIONAL</td>
+    <td align="center">N</td>
+    <td align="center">N</td>
+  </tr>
+   <tr>
+    <td>NOME</td>
+    <td>varchar</td>
+    <td align="center">100</td>
+    <td>INFORMA O NOME DO PROFISSIONAL</td>
+    <td align="center">N</td>
+    <td align="center">N</td>
+  </tr>
+   <tr>
+    <td>DATA_NASCIMENTO</td>
+    <td>varchar</td>
+    <td align="center">15</td>
+    <td>INFORMA A DATA NASCIMENTO DO PROFISSIONAL</td>
+    <td align="center">N</td>
+    <td align="center">S</td>
+  </tr>	
+  <tr>
+    <td>FUNCAO</td>
+    <td>varchar</td>
+    <td align="center">50</td>
+    <td>INFORMA A FUNÇÃO EXERCIDA PELO PROFISSIONAL</td>
+    <td align="center">N</td>
+    <td align="center">N</td>
+  </tr>	
+  <tr>
+    <td>PIX</td>
+    <td>varchar</td>
+    <td align="center">50</td>
+    <td>INFORMA O NÚMERO DO PIX DO PROFISSIONAL</td>
+    <td align="center">N</td>
+    <td align="center">S</td>
+  </tr>	
+  <tr>
+    <td>ATIVO</td>
+    <td>varchar</td>
+    <td align="center">1</td>
+    <td>INFORMA SE O PROSSIONAL CONTINUA TRABALHANDO NA EMPRESA</td>
+    <td align="center">N</td>
+    <td align="center">N</td>
+  </tr>	
+  
+	
+</table><br><br>
+
+
+
+
 		
 	
 
