@@ -69,7 +69,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>ID_CLIENTE</td>
     <td>INT</td>
     <td align="center">7</td>
-    <td>IDENTIFICADOR ÚNICO (IDENTITY)</td>
+    <td>IDENTIFICADOR ÚNICO</td>
     <td align="center">S</td>
     <td align="center">N</td>
   </tr>
@@ -117,7 +117,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td><strong>CHAVE PRIMÁRIA</strong></td>
     <td><strong>ACEITA NULO</strong></td>
   </tr>
-    <td>ID_PRESTADOR</td>
+    <td>ID PRESTADOR</td>
     <td>INT</td>
     <td align="center">7</td>
     <td>IDENTIFICADOR ÚNICO (IDENTITY)</td>
