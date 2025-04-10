@@ -21,7 +21,7 @@ Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves
 AutoAvaliacao.ipynb - > Fala sobre a construção do projeto as dificuldades enfrentadas até chegar nas respostas das métricas pedidas. E faz uma explicação do SQL de cada resposta e como chegamos no obetivo.<br><br>
 
 <center><strong>MODELO</strong></center><br><br>
-Foi escolhimo o  modelo estrela, criando as tabaelas fatos para responder as métricas.<br>
+Foi escolhido o  modelo Estrela. Foi criado as tabelas fatos para responder as métricas acima.<br>
 
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/modelo.jpg'/><br><br>
 
