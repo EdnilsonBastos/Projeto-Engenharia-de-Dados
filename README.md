@@ -176,13 +176,13 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
 
 <table border="1">
   <tr>
-    <th colspan="6">TABELA PAGAMENTOS</th>
+    <th colspan="7">TABELA PAGAMENTOS</th>
   </tr>
   <tr>
-    <th colspan="6" align="left">ORIGEM: TABELA PAGAMENTOS EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
+    <th colspan="7" align="left">ORIGEM: TABELA PAGAMENTOS EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
   </tr>
 <tr>
-    <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (pagamentos.csv)</th>
+    <th colspan="7" align="left">EXEMPLO DO ARQUIVO: (pagamentos.csv)</th>
   </tr>
   <tr>
     <td><strong>NOME DO CAMPO</strong></td>
@@ -229,10 +229,10 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td align="center">N</td>
   </tr>	
   <tr>
-    <td>DATA PAGAMENTO</td>
+    <td>DATA_PAGAMENTO</td>
     <td>DATE</td>
     <td align="center">10</td>
-    <td>INFORMA A DATA_QUE O CLIENTE EFETUOU O PAGAMENTO</td>
+    <td>INFORMA A DATA QUE O CLIENTE EFETUOU O PAGAMENTO</td>
     <td align="center">N</td>
     <td></td>	
     <td align="center">N</td>
