@@ -78,7 +78,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>STRING</td>
     <td align="center">100</td>
     <td>INFORMA O NOME DO CLIENTE</td>
-    <td align="center"N</td>
+    <td align="center">N</td>
     <td align="center">N</td>
   </tr>
    <tr>
@@ -86,7 +86,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>STRING</td>
     <td align="center">10</td>
     <td>INFORMA A DATA DE NASCIMENTO DO CLIENTE</td>
-    <td align="center"N</td>
+    <td align="center"N></td>
     <td align="center">S</td>
   </tr>
    <tr>
@@ -94,7 +94,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>STRING</td>
     <td align="center">15</td>
     <td>INFORMA O TELEFONE CELULAR DO CLIENTE</td>
-    <td align="center"N</td>
+    <td align="center"N></td>
     <td align="center">S</td>
   </tr>	
 </table><br><br>
