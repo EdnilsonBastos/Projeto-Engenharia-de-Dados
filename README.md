@@ -120,7 +120,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>ID PRESTADOR</td>
     <td>INT</td>
     <td align="center">7</td>
-    <td>IDENTIFICADOR ÚNICO (IDENTITY)</td>
+    <td>IDENTIFICADOR ÚNICO</td>
     <td align="center">S</td>
     <td align="center">N</td>
   </tr>
@@ -171,10 +171,72 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>INFORMA SE O PROSSIONAL CONTINUA TRABALHANDO NA EMPRESA</td>
     <td align="center">N</td>
     <td align="center">N</td>
-  </tr>	
-  
-	
+  </tr>		
 </table><br><br>
+
+<table border="1">
+  <tr>
+    <th colspan="6">TABELA PAGAMENTOS</th>
+  </tr>
+  <tr>
+    <th colspan="6" align="left">ORIGEM: TABELA PAGAMENTOS EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
+  </tr>
+<tr>
+    <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (pagamentos.csv)</th>
+  </tr>
+  <tr>
+    <td><strong>NOME DO CAMPO</strong></td>
+    <td><strong>TIPO DO DADO</strong></td>
+    <td><strong>TAMANHO</strong></td>
+    <td><strong>DESCRIÇÃO</strong></td>
+    <td><strong>CHAVE PRIMÁRIA</strong></td>
+    <td><strong>CHAVE ESTRANGEIRA</strong></td>	  
+    <td><strong>ACEITA NULO</strong></td>
+  </tr>
+    <td>ID_PAGAMENTO</td>
+    <td>INT</td>
+    <td align="center">7</td>
+    <td>IDENTIFICADOR ÚNICO</td>
+    <td align="center">S</td>
+    <td></td>	
+    <td align="center">N</td>
+  </tr>
+  <tr>
+    <td>ID_COMANDA</td>
+    <td>INT</td>
+    <td align="center">50</td>
+    <td>NÚMERO DE COMANDA GERADA NO ATENDIMENTO DO CLIENTE</td>
+    <td align="center">N</td>
+    <td>(S) ID_COMANDA DA TABELA COMANDA</td>		  
+    <td align="center">N</td>
+  </tr>
+   <tr>
+    <td>VALOR_PAGTO</td>
+    <td>decimal</td>
+    <td align="center">(10,2)</td>
+    <td>INFORMA O VALOR PAGO PELO CLIENTE PELO SERVIÇOS FEITOS</td>
+    <td align="center">N</td>
+    <td></td>	
+    <td align="center">N</td>
+  </tr>
+   <tr>
+    <td>FORMA_PAGO</td>
+    <td>varchar</td>
+    <td align="center">50</td>
+    <td>INFORMA A FORMA DE PAGAMENTO QUE O CLIENTE EFETUOU.ACEITANDO (DINHEIRO, PIX, DÉBITO E CRÉDITO)</td>
+    <td align="center">N</td>
+    <td align="center">S</td>
+  </tr>	
+  <tr>
+    <td>DATA_PAGAMENTO</td>
+    <td>DATE</td>
+    <td align="center">10</td>
+    <td>INFORMA A DATA QUE O CLIENTE EFETUOU O PAGAMENTO</td>
+    <td align="center">N</td>
+    <td align="center">N</td>
+  </tr>	 
+</table><br><br>
+
 
 
 
