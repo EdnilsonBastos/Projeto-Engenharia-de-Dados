@@ -67,7 +67,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td><strong>ACEITA NULO</strong></td>
   </tr>
     <td>ID_CLIENTE</td>
-    <td>INTEGER</td>
+    <td>INT</td>
     <td align="center">7</td>
     <td>IDENTIFICADOR ÚNICO (IDENTITY)</td>
     <td align="center">S</td>
@@ -75,7 +75,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
   </tr>
   <tr>
     <td>NOME</td>
-    <td>STRING</td>
+    <td>Varchar</td>
     <td align="center">100</td>
     <td>INFORMA O NOME DO CLIENTE</td>
     <td align="center">N</td>
@@ -83,7 +83,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
   </tr>
    <tr>
     <td>DATA_NASCIMENTO</td>
-    <td>"STRING"</td>
+    <td>varchar</td>
     <td align="center">10</td>
     <td>INFORMA A DATA DE NASCIMENTO DO CLIENTE</td>
     <td align="center">N</td>
@@ -91,7 +91,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
   </tr>
    <tr>
     <td>TELEFONE</td>
-    <td>STRING</td>
+    <td>varchar</td>
     <td align="center">15</td>
     <td>INFORMA O TELEFONE CELULAR DO CLIENTE</td>
     <td align="center">N</td>
