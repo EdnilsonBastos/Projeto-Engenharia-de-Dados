@@ -104,10 +104,10 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <th colspan="6">TABELA PRESTADOR</th>
   </tr>
   <tr>
-    <th colspan="6" align="left">ORIGEM: TABELA CLIENTE EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
+    <th colspan="6" align="left">ORIGEM: TABELA PRESTADOR EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
   </tr>
 <tr>
-    <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (clientes.csv)</th>
+    <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (prestador.csv)</th>
   </tr>
   <tr>
     <td><strong>NOME DO CAMPO</strong></td>
