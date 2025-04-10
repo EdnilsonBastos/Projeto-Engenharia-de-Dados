@@ -85,7 +85,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>DATA_NASCIMENTO</td>
     <td>varchar</td>
     <td align="center">10</td>
-    <td>'INFORMA A DATA DE NASCIMENTO DO CLIENTE'</td>
+    <td>INFORMA A DATA_DE_NASCIMENTO DO CLIENTE</td>
     <td align="center">N</td>
     <td align="center">S</td>
   </tr>
