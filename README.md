@@ -59,7 +59,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (clientes.csv)</th>
   </tr>
   <tr>
-    <td><strong>NOME DO CAMPO</strong></td>
+    <td><font size="3"><strong>NOME DO CAMPO</strong></font></td>
     <td><strong>TIPO DO DADO</strong></td>
     <td><strong>TAMANHO</strong></td>
     <td><strong>DESCRIÇÃO</strong></td>
