@@ -207,7 +207,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td align="center">50</td>
     <td>NÚMERO DE COMANDA GERADA NO ATENDIMENTO DO CLIENTE</td>
     <td align="center">N</td>
-    <td>(S) ID_COMANDA DA TABELA COMANDA</td>		  
+    <td>(SIM) JUNÇÃO C\ A TABELA COMANDA</td>		  
     <td align="center">N</td>
   </tr>
    <tr>
