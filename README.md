@@ -66,7 +66,6 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td><strong>CHAVE PRIMÁRIA</strong></td>
     <td><strong>ACEITA NULO</strong></td>
   </tr>
-  <tr>
     <td>ID_CLIENTE</td>
     <td>INTEGER</td>
     <td align="center">7</td>
@@ -74,7 +73,34 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td align="center">S</td>
     <td align="center">N</td>
   </tr>
-</table>
+  <tr>
+    <td>NOME</td>
+    <td>STRING</td>
+    <td align="center">100</td>
+    <td>INFORMA O NOME DO CLIENTE</td>
+    <td align="center"N</td>
+    <td align="center">N</td>
+  </tr>
+   <tr>
+    <td>DATA_NASCIMENTO</td>
+    <td>STRING</td>
+    <td align="center">10</td>
+    <td>INFORMA A DATA DE NASCIMENTO DO CLIENTE</td>
+    <td align="center"N</td>
+    <td align="center">S</td>
+  </tr>
+   <tr>
+    <td>TELEFONE</td>
+    <td>STRING</td>
+    <td align="center">15</td>
+    <td>INFORMA O TELEFONE CELULAR DO CLIENTE</td>
+    <td align="center"N</td>
+    <td align="center">S</td>
+  </tr>	
+</table><br><br>
+		
+	
+
 
 
 <strong>CATALAGO DA CAMADA PRATA</strong><br> 
