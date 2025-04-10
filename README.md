@@ -18,7 +18,7 @@ Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos datafra
 QualidadeDados.ipyn - > Desmonstra quais tabelas tivemos problemas na qualidade dos dados.<br>
 Prata.ipynb - > Trata os dataframes retirando colunas em branco, troca o tipo de coluna e altera os dados de uma coluna. Gera o database Prata com os dataframes tratados.<br>
 Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves do comando SQL.<br><br>
-AutoAvaliacao.ipynb - > Fala sobre a construção do projeto as dificuldades enfrentadas até chegar nas respostas das métricas pedidas. E faz uma explicação do SQL de cada resposta e como chegamos no obetivo.
+AutoAvaliacao.ipynb - > Fala sobre a construção do projeto as dificuldades enfrentadas até chegar nas respostas das métricas pedidas. E faz uma explicação do SQL de cada resposta e como chegamos no obetivo.<br><br>
 
 <center><strong>MODELO</strong></center><br><br>
 
