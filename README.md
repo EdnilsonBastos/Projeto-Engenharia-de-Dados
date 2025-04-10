@@ -168,7 +168,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>ATIVO</td>
     <td>varchar</td>
     <td align="center">1</td>
-    <td>INFORMA SE O PROSSIONAL CONTINUA TRABALHANDO NA EMPRESA</td>
+    <td>INFORMA SE O PROSSIONAL CONTINUA TRABALHANDO NA EMPRESA. ACEITA('S' OU 'N')</td>
     <td align="center">N</td>
     <td align="center">N</td>
   </tr>		
