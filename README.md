@@ -48,22 +48,6 @@ ID_COMANDA da tabela “PAGAMENTOS” com ID_COMANDA da tabela “COMANDA”
 Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.
 
 <strong>CATALAGO DE DADOS DA CAMADA BRONZE</strong><br><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze.JPG'/><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze1.JPG'/><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogobronze2.JPG'/><br><br>
-
-<strong>CATALAGO DA CAMADA PRATA</strong><br> 
-*(Coloquei somente as tabelas que teve mudança na sua estrutura em referência a camada “Bronze”)<br><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoprata.JPG'/><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoprata1.JPG'/><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoprata2.JPG'/><br><br>
-
-
-<strong>CATALAGO DA CAMADA OURO</strong><br><br> 
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoouro.JPG'/><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoouro1.JPG'/><br>
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoouro2.JPG'/><br><br>
-
 <table border="1">
   <tr>
     <th colspan="6">TABELA CLIENTES</th>
@@ -74,7 +58,6 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
 <tr>
     <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (clientes.csv)</th>
   </tr>
-
   <tr>
     <td><strong>NOME DO CAMPO</strong></td>
     <td><strong>TIPO DO DADO</strong></td>
@@ -90,9 +73,17 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>IDENTIFICADOR ÚNICO (IDENTITY)</td>
     <td align="center">S</td>
     <td align="center">N</td>
-
   </tr>
 </table>
+
+
+<strong>CATALAGO DA CAMADA PRATA</strong><br> 
+*(Coloquei somente as tabelas que teve mudança na sua estrutura em referência a camada “Bronze”)<br><br>
+
+
+<strong>CATALAGO DA CAMADA OURO</strong><br><br> 
+
+
 
 
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Bronze.ipynb">Notebook Bronze</a>.
