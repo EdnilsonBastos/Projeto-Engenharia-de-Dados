@@ -14,11 +14,19 @@ As principais perguntas que ele deseja obter respostas são:
 
 <center><strong>Explicação do arquivos Notebook:</strong></center><br>
 Importar_arquivos.ipyn - > Importar os arquivos (.csv) para os dataframes.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Importar_arquivos.ipyn">Notebook Importar Arquivos</a>.<br>
 Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos dataframes carregados.<br>
-QualidadeDados.ipyn - > Desmonstra quais tabelas tivemos problemas na qualidade dos dados.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Bronze.ipynb ">Notebook Bronze</a>.<br>
+QualidadeDados.ipynb - > Desmonstra quais tabelas tivemos problemas na qualidade dos dados.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/QualidadeDados.ipynb ">Notebook Qualidade de Dados</a>.<br>
+Catalogos.ipynb - > Foi feito os catalogos nas três camadas Bronze, Prata e Ouro.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Catalogos.ipynb ">Notebook Catalagos de Dados</a>.<br>
 Prata.ipynb - > Trata os dataframes retirando colunas em branco, troca o tipo de coluna e altera os dados de uma coluna. Gera o database Prata com os dataframes tratados.<br>
-Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves do comando SQL.<br><br>
-AutoAvaliacao.ipynb - > Fala sobre a construção do projeto as dificuldades enfrentadas até chegar nas respostas das métricas pedidas. E faz uma explicação do SQL de cada resposta e como chegamos no obetivo.<br><br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Prata.ipynb ">Notebook Prata</a>.<br>
+Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves do comando SQL.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Ouro.ipynb  ">Notebook Ouro</a>.<br>
+AutoAvaliacao.ipynb - > Fala sobre a construção do projeto as dificuldades enfrentadas até chegar nas respostas das métricas pedidas. E faz uma explicação do SQL de cada resposta e como chegamos no obetivo.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/AutoAvaliacao.ipynb">Notebook da AutoAvaliação</a>.<br><br>
 
 <center><strong>MODELO</strong></center><br><br>
 Foi escolhido o  modelo Estrela. Foi criado as tabelas fatos para responder as métricas acima.<br><br>
@@ -47,199 +55,8 @@ PAGAMENTOS --> COMANDA<br>
 ID_COMANDA da tabela “PAGAMENTOS” com ID_COMANDA da tabela “COMANDA”
 Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.<br>
 
-<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/cataloga_camada_Bronze.jpg'/><br><br>
 
-<strong>CATALAGO DE DADOS DA CAMADA BRONZE</strong><br><br>
-<table border="1">
-  <tr>
-    <th colspan="6">TABELA CLIENTES</th>
-  </tr>
-  <tr>
-    <th colspan="6" align="left">ORIGEM: TABELA CLIENTE EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
-  </tr>
-<tr>
-    <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (clientes.csv)</th>
-  </tr>
-  <tr>
-    <td><strong>NOME DO CAMPO</strong></td>
-    <td><strong>TIPO DO DADO</strong></td>
-    <td><strong>TAMANHO</strong></td>
-    <td><strong>DESCRIÇÃO</strong></td>
-    <td><strong>CHAVE PRIMÁRIA</strong></td>
-    <td><strong>ACEITA NULO</strong></td>
-  </tr>
-    <td>ID_CLIENTE</td>
-    <td>INT</td>
-    <td align="center">7</td>
-    <td>IDENTIFICADOR ÚNICO</td>
-    <td align="center">S</td>
-    <td align="center">N</td>
-  </tr>
-  <tr>
-    <td>NOME</td>
-    <td>Varchar</td>
-    <td align="center">100</td>
-    <td>INFORMA O NOME DO CLIENTE</td>
-    <td align="center">N</td>
-    <td align="center">N</td>
-  </tr>
-   <tr>
-    <td>DATA_NASCIMENTO</td>
-    <td>varchar</td>
-    <td align="center">10</td>
-    <td>INFORMA A DATA DE NASCIMENTO DO CLIENTE</td>
-    <td align="center">N</td>
-    <td align="center">S</td>
-  </tr>
-   <tr>
-    <td>TELEFONE</td>
-    <td>varchar</td>
-    <td align="center">15</td>
-    <td>INFORMA O TELEFONE CELULAR DO CLIENTE</td>
-    <td align="center">N</td>
-    <td align="center">S</td>
-  </tr>	
-</table><br><br>
 
-<table border="1">
-  <tr>
-    <th colspan="6">TABELA PRESTADOR</th>
-  </tr>
-  <tr>
-    <th colspan="6" align="left">ORIGEM: TABELA PRESTADOR EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
-  </tr>
-<tr>
-    <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (prestador.csv)</th>
-  </tr>
-  <tr>
-    <td><strong>NOME DO CAMPO</strong></td>
-    <td><strong>TIPO DO DADO</strong></td>
-    <td><strong>TAMANHO</strong></td>
-    <td><strong>DESCRIÇÃO</strong></td>
-    <td><strong>CHAVE PRIMÁRIA</strong></td>
-    <td><strong>ACEITA NULO</strong></td>
-  </tr>
-    <td>ID PRESTADOR</td>
-    <td>INT</td>
-    <td align="center">7</td>
-    <td>IDENTIFICADOR ÚNICO</td>
-    <td align="center">S</td>
-    <td align="center">N</td>
-  </tr>
-  <tr>
-    <td>APELIDO</td>
-    <td>Varchar</td>
-    <td align="center">50</td>
-    <td>INFORMA O APELIDO DO PROFISSIONAL</td>
-    <td align="center">N</td>
-    <td align="center">N</td>
-  </tr>
-   <tr>
-    <td>NOME</td>
-    <td>varchar</td>
-    <td align="center">100</td>
-    <td>INFORMA O NOME DO PROFISSIONAL</td>
-    <td align="center">N</td>
-    <td align="center">N</td>
-  </tr>
-   <tr>
-    <td>DATA_NASCIMENTO</td>
-    <td>varchar</td>
-    <td align="center">15</td>
-    <td>INFORMA A DATA NASCIMENTO DO PROFISSIONAL</td>
-    <td align="center">N</td>
-    <td align="center">S</td>
-  </tr>	
-  <tr>
-    <td>FUNCAO</td>
-    <td>varchar</td>
-    <td align="center">50</td>
-    <td>INFORMA A FUNÇÃO EXERCIDA PELO PROFISSIONAL</td>
-    <td align="center">N</td>
-    <td align="center">N</td>
-  </tr>	
-  <tr>
-    <td>PIX</td>
-    <td>varchar</td>
-    <td align="center">50</td>
-    <td>INFORMA O NÚMERO DO PIX DO PROFISSIONAL</td>
-    <td align="center">N</td>
-    <td align="center">S</td>
-  </tr>	
-  <tr>
-    <td>ATIVO</td>
-    <td>varchar</td>
-    <td align="center">1</td>
-    <td>INFORMA SE O PROSSIONAL CONTINUA TRABALHANDO NA EMPRESA. ACEITA('S' OU 'N')</td>
-    <td align="center">N</td>
-    <td align="center">N</td>
-  </tr>		
-</table><br><br>
-
-<table border="1">
-  <tr>
-    <th colspan="7">TABELA PAGAMENTOS</th>
-  </tr>
-  <tr>
-    <th colspan="7" align="left">ORIGEM: TABELA PAGAMENTOS EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
-  </tr>
-<tr>
-    <th colspan="7" align="left">EXEMPLO DO ARQUIVO: (pagamentos.csv)</th>
-</tr>
-  <tr>
-    <td><strong>NOME DO CAMPO</strong></td>
-    <td><strong>TIPO DO DADO</strong></td>
-    <td><strong>TAMANHO</strong></td>
-    <td><strong>DESCRIÇÃO</strong></td>
-    <td><strong>CHAVE PRIMÁRIA</strong></td>
-    <td><strong>CHAVE ESTRANGEIRA</strong></td>	  
-    <td><strong>ACEITA NULO</strong></td>
-  </tr>
-    <td>ID_PAGAMENTO</td>
-    <td>INT</td>
-    <td align="center">7</td>
-    <td>IDENTIFICADOR ÚNICO</td>
-    <td align="center">S</td>
-    <td></td>	
-    <td align="center">N</td>
-  </tr>
-  <tr>
-    <td>ID_COMANDA</td>
-    <td>INT</td>
-    <td align="center">50</td>
-    <td>NÚMERO DE COMANDA GERADA NO ATENDIMENTO DO CLIENTE</td>
-    <td align="center">N</td>
-    <td>(SIM) JUNÇÃO C\ A TABELA COMANDA</td>		  
-    <td align="center">N</td>
-  </tr>
-   <tr>
-    <td>VALOR_PAGTO</td>
-    <td>decimal</td>
-    <td align="center">(10,2)</td>
-    <td>INFORMA O VALOR PAGO PELO CLIENTE PELO SERVIÇOS FEITOS</td>
-    <td align="center">N</td>
-    <td></td>	
-    <td align="center">N</td>
-  </tr>
-   <tr>
-    <td>FORMA_PAGO</td>
-    <td>varchar</td>
-    <td align="center">50</td>
-    <td>INFORMA A FORMA DE PAGAMENTO QUE O CLIENTE EFETUOU.ACEITANDO (DINHEIRO, PIX, DÉBITO E CRÉDITO)</td>
-    <td align="center">N</td>
-    <td></td>	
-    <td align="center">N</td>
-  </tr>	
-  <tr>
-    <td alingn="left">DATA_PAGAMENTO</td>
-    <td>DATETIME</td>
-    <td align="center">10</td>
-    <td>INFORMA A DATA A QUE O CLIENTE EFETUOU O PAGAMENTO</td>
-    <td align="center">N</td>
-    <td></td>	
-    <td align="center">N</td>
-  </tr>	 
-</table><br><br>
 
 
 
@@ -250,16 +67,12 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
 
 
 
-<strong>CATALAGO DA CAMADA PRATA</strong><br> 
-*(Coloquei somente as tabelas que teve mudança na sua estrutura em referência a camada “Bronze”)<br><br>
-
-
-<strong>CATALAGO DA CAMADA OURO</strong><br><br> 
 
 
 
 
-<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Bronze.ipynb">Notebook Bronze</a>.
+
+
 
 
 
