@@ -69,7 +69,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
 | Content Cell  | Content Cell  |
 
 
-<a href="https://www.mozilla.org/pt-BR/">a página inicial da Mozilla</a>.
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Bronze.ipynb">Notebook Bronze</a>.
 
 
 
