@@ -232,7 +232,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td>DATA_PAGAMENTO</td>
     <td>DATE</td>
     <td align="center">10</td>
-    <td>(INFORMA A DATA QUE O CLIENTE EFETUOU O PAGAMENTO)</td>
+    <td>INFORMA A "DATA" QUE O CLIENTE EFETUOU O PAGAMENTO</td>
     <td align="center">N</td>
     <td></td>	
     <td align="center">N</td>
