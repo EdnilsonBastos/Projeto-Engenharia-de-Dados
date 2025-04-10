@@ -225,14 +225,16 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
     <td align="center">50</td>
     <td>INFORMA A FORMA DE PAGAMENTO QUE O CLIENTE EFETUOU.ACEITANDO (DINHEIRO, PIX, DÉBITO E CRÉDITO)</td>
     <td align="center">N</td>
-    <td align="center">S</td>
+    <td></td>	
+    <td align="center">N</td>
   </tr>	
   <tr>
-    <td>DATA_PAGAMENTO</td>
+    <td>DATA PAGAMENTO</td>
     <td>DATE</td>
     <td align="center">10</td>
-    <td>INFORMA A DATA QUE O CLIENTE EFETUOU O PAGAMENTO</td>
+    <td>INFORMA A DATA_QUE O CLIENTE EFETUOU O PAGAMENTO</td>
     <td align="center">N</td>
+    <td></td>	
     <td align="center">N</td>
   </tr>	 
 </table><br><br>
