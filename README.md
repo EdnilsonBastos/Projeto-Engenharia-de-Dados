@@ -14,13 +14,13 @@ As principais perguntas que ele deseja obter respostas são:
 
 <center><strong>Explicação do arquivos Notebook:</strong></center><br>
 Importar_arquivos.ipyn - > Importar os arquivos (.csv) para os dataframes.<br>
-<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Importar_arquivos.ipyn">Notebook Importar Arquivos</a>.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Importar_arquivos.ipynb">Notebook Importar Arquivos</a>.<br>
 Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos dataframes carregados.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Bronze.ipynb ">Notebook Bronze</a>.<br>
 QualidadeDados.ipynb - > Desmonstra quais tabelas tivemos problemas na qualidade dos dados.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/QualidadeDados.ipynb ">Notebook Qualidade de Dados</a>.<br>
 Catalogos.ipynb - > Foi feito os catalogos nas três camadas Bronze, Prata e Ouro.<br>
-<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Catalogos.ipynb ">Notebook Catalagos de Dados</a>.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/CATALAGOS.ipynb ">Notebook Catalagos de Dados</a>.<br>
 Prata.ipynb - > Trata os dataframes retirando colunas em branco, troca o tipo de coluna e altera os dados de uma coluna. Gera o database Prata com os dataframes tratados.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Prata.ipynb ">Notebook Prata</a>.<br>
 Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves do comando SQL.<br>
