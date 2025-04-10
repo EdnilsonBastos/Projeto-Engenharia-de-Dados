@@ -83,7 +83,7 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
   </tr>
    <tr>
     <td>DATA_NASCIMENTO</td>
-    <td>STRING</td>
+    <td>"STRING"</td>
     <td align="center">10</td>
     <td>INFORMA A DATA DE NASCIMENTO DO CLIENTE</td>
     <td align="center">N</td>
