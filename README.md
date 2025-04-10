@@ -64,10 +64,35 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' q
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoouro1.JPG'/><br>
 <IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/catalogoouro2.JPG'/><br><br>
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+<table border="1">
+  <tr>
+    <th colspan="6">TABELA CLIENTES</th>
+  </tr>
+  <tr>
+    <th colspan="6" align="left">ORIGEM: TABELA CLIENTE EXPORTADA DO SISTEMA DESKTOP DO SALÃO PARA O FORMATO (.CSV)</th>
+  </tr>
+<tr>
+    <th colspan="6" align="left">EXEMPLO DO ARQUIVO: (clientes.csv)</th>
+  </tr>
+
+  <tr>
+    <td><strong>NOME DO CAMPO</strong></td>
+    <td><strong>TIPO DO DADO</strong></td>
+    <td><strong>TAMANHO</strong></td>
+    <td><strong>DESCRIÇÃO</strong></td>
+    <td><strong>CHAVE PRIMÁRIA</strong></td>
+    <td><strong>ACEITA NULO</strong></td>
+  </tr>
+  <tr>
+    <td>ID_CLIENTE</td>
+    <td>INTEGER</td>
+    <td align="center">7</td>
+    <td>IDENTIFICADOR ÚNICO (IDENTITY)</td>
+    <td align="center">S</td>
+    <td align="center">N</td>
+
+  </tr>
+</table>
 
 
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Bronze.ipynb">Notebook Bronze</a>.
