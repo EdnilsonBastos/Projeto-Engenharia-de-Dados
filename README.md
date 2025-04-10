@@ -45,7 +45,9 @@ Incluir TODOS os registros de 'COMANDA' e somente os registros de 'COMANDACLIENT
 
 PAGAMENTOS --> COMANDA<br>
 ID_COMANDA da tabela “PAGAMENTOS” com ID_COMANDA da tabela “COMANDA”
-Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.
+Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.<br>
+
+<IMG SRC='https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/cataloga_camada_Bronze.jpg'/><br><br>
 
 <strong>CATALAGO DE DADOS DA CAMADA BRONZE</strong><br><br>
 <table border="1">
