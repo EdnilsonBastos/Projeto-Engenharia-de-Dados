@@ -26,7 +26,7 @@ Prata.ipynb - > Trata os dataframes retirando colunas em branco, troca o tipo de
 Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves do comando SQL.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Ouro.ipynb  ">Notebook Ouro</a>.<br><br>
 AutoAvaliacao.ipynb - > Fala sobre a construção do projeto as dificuldades enfrentadas até chegar nas respostas das métricas pedidas. E faz uma explicação da construção do comando SQL de cada resposta e como chegamos no obetivo.<br>
-<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/AutoAvaliacao.ipynb">Notebook da AutoAvaliação</a>.<br><br>
+<a href="https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/88263800885915/2278839465123961/7601240088140268/latest.html">Notebook da AutoAvaliação</a>.<br><br>
 
 <center><strong>MODELO</strong></center><br><br>
 Foi escolhido o  modelo Estrela. Foi criado as tabelas fatos para responder as métricas acima.<br><br>
