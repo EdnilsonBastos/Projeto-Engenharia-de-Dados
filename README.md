@@ -13,18 +13,18 @@ As principais perguntas que ele deseja obter respostas são:
 8.	Com base nas informações coletadas, quais estratégias podem ser adotadas para aumentar o faturamento do salão?<br><br>
 
 <center><strong>Explicação do arquivos Notebook:</strong></center><br>
-Importar_arquivos.ipyn - > Importar os arquivos (.csv) para os dataframes.<br>
-<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Importar_arquivos.ipynb">Notebook Importar Arquivos</a>.<br>
-Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos dataframes carregados.<br>
-<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Bronze.ipynb ">Notebook Bronze</a>.<br>
+Importar_arquivos.ipynb - > Importar os arquivos (.csv) para os dataframes.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Importar_arquivos.ipynb">Notebook Importar Arquivos</a>.<br><br>
+Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos dataframes que foram carregados.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Bronze.ipynb ">Notebook Bronze</a>.<br><br>
 QualidadeDados.ipynb - > Desmonstra quais tabelas tivemos problemas na qualidade dos dados.<br>
-<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/QualidadeDados.ipynb ">Notebook Qualidade de Dados</a>.<br>
-Catalogos.ipynb - > Foi feito os catalogos nas três camadas Bronze, Prata e Ouro.<br>
-<a href="https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/88263800885915/3970626668299490/7601240088140268/latest.html">Notebook Catalago de Dados</a>.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/QualidadeDados.ipynb ">Notebook Qualidade de Dados</a>.<br><br>
+Catalogos.ipynb - > Foi feito os catalogo de dados nas três camadas Bronze, Prata e Ouro.<br>
+<a href="https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/88263800885915/3970626668299490/7601240088140268/latest.html">Notebook Catalago de Dados</a>.<br><br>
 Prata.ipynb - > Trata os dataframes retirando colunas em branco, troca o tipo de coluna e altera os dados de uma coluna. Gera o database Prata com os dataframes tratados.<br>
-<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Prata.ipynb ">Notebook Prata</a>.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Prata.ipynb ">Notebook Prata</a>.<br><br>
 Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves do comando SQL.<br>
-<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Ouro.ipynb  ">Notebook Ouro</a>.<br>
+<a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Ouro.ipynb  ">Notebook Ouro</a>.<br><br>
 AutoAvaliacao.ipynb - > Fala sobre a construção do projeto as dificuldades enfrentadas até chegar nas respostas das métricas pedidas. E faz uma explicação do SQL de cada resposta e como chegamos no obetivo.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/AutoAvaliacao.ipynb">Notebook da AutoAvaliação</a>.<br><br>
 
@@ -35,23 +35,23 @@ Foi escolhido o  modelo Estrela. Foi criado as tabelas fatos para responder as m
 
 <strong>RELACIONAMENTOS DA TABELAS</strong><br><br>
 
-CLIENTES  --> COMANDACLIENTE<br>
+<strong>CLIENTES  --> COMANDACLIENTE</strong><br>
 ID_CLIENTE da tabela “CLIENTE” com ID_CLIENTE da tabela “COMANDA_CLIENTE”
 Incluir TODOS os registros de 'CLIENTES' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.<br>
 	
-PRESTADOR  --> COMANDACLIENTE<br>
+<strong>PRESTADOR  --> COMANDACLIENTE</strong><br>
 ID_PRESTADOR da tabela “PRESTADOR” com ID_PRESTADOR da tabela “COMANDACLIENTE”
 Incluir TODOS os registros de 'PRESTADOR' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.
 
-SERVICOS  --> COMANDACLIENTE<br>
+SERVICOS  --> COMANDACLIENTE</strong><br>
 ID_SERVICO da tabela “SERVICOS” com ID_SERVICO da tabela “COMANDACLIENTE”
 Incluir TODOS os registros de 'SERVICOS' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.
 
-COMANDA --> COMANDACLIENTE<br>
+<strong>COMANDA --> COMANDACLIENTE</strong><br>
 ID_COMANDA da tabela “COMANDA” com ID_COMANDA da tabela “COMANDACLIENTE”
 Incluir TODOS os registros de 'COMANDA' e somente os registros de 'COMANDACLIENTE' quando os campos unidos forem iguais.
 
-PAGAMENTOS --> COMANDA<br>
+<strong>PAGAMENTOS --> COMANDA</strong><br>
 ID_COMANDA da tabela “PAGAMENTOS” com ID_COMANDA da tabela “COMANDA”
 Incluir TODOS os registros de 'COMANDA' e somente os registros de 'PAGAMENTOS' quando os campos unidos forem iguais.<br>
 
