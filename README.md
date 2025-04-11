@@ -15,7 +15,7 @@ As principais perguntas que ele deseja obter respostas são:
 <center><strong>Explicação do arquivos Notebook:</strong></center><br>
 Importar_arquivos.ipynb - > Importar os arquivos (.csv) para os dataframes.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Importar_arquivos.ipynb">Notebook Importar Arquivos</a>.<br><br>
-Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos dataframes que foram carregados.<br>
+Bronze.ipynb - > Gera as tabelas no database Bronze com seus respectivos dataframes que foram carregados no notebool de importar arquivos.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Bronze.ipynb ">Notebook Bronze</a>.<br><br>
 QualidadeDados.ipynb - > Desmonstra quais tabelas tivemos problemas na qualidade dos dados.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/QualidadeDados.ipynb ">Notebook Qualidade de Dados</a>.<br><br>
@@ -25,7 +25,7 @@ Prata.ipynb - > Trata os dataframes retirando colunas em branco, troca o tipo de
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Prata.ipynb ">Notebook Prata</a>.<br><br>
 Ouro.ipynb - > Cria as tabelas no database Ouro e responde as perguntas atráves do comando SQL.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/Ouro.ipynb  ">Notebook Ouro</a>.<br><br>
-AutoAvaliacao.ipynb - > Fala sobre a construção do projeto as dificuldades enfrentadas até chegar nas respostas das métricas pedidas. E faz uma explicação do SQL de cada resposta e como chegamos no obetivo.<br>
+AutoAvaliacao.ipynb - > Fala sobre a construção do projeto as dificuldades enfrentadas até chegar nas respostas das métricas pedidas. E faz uma explicação da construção do comando SQL de cada resposta e como chegamos no obetivo.<br>
 <a href="https://github.com/EdnilsonBastos/Projeto-Engenharia-de-Dados/blob/main/AutoAvaliacao.ipynb">Notebook da AutoAvaliação</a>.<br><br>
 
 <center><strong>MODELO</strong></center><br><br>
